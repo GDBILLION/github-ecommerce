@@ -1,0 +1,315 @@
+
+/*Navbar*/
+
+.navBar{
+  width: 100%;
+  background-color: #2a2a72;
+  height: 4.75rem;
+  margin-bottom: 20px;
+}
+
+
+
+#leftTop{
+  color: white; 
+}
+
+.leftContent{
+  width: 40%;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navBarContainer{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 0 1rem;
+}
+
+#root > div > div > div.rightContent > button{
+  margin-top: 20%;
+  cursor: pointer;
+  background-color:  #2a2a72;
+  color:  #009ffd;
+  font-size: 1.4rem;
+  border-color: #009ffd;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#root > div > div > div.rightContent > button:hover{
+  background-color: #009ffd;
+}
+
+/*Search Component */
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+/*Products Container */
+.shop{
+  padding: 2.5rem 0;
+}
+
+.ourProducts{
+  text-align: center;
+ 
+}
+
+#root > div.shop > div.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 0 3%;
+  
+}
+
+img{
+  width: 16rem;
+  height: 16rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  
+}
+
+.description{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding-left: 1em;
+  padding-right: 4em;
+  
+}
+
+/*Pagenation*/
+.pagenation{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  
+}
+
+li.link{
+  list-style-type: none;
+  padding: 0 10px;
+  
+  padding-top: 4px;
+  
+}
+
+.btn1, .btn2, .link, .btn3,.btn4{
+  height: 2rem;
+  border: none;
+}
+
+.btn1:hover, .btn2:hover, .link:hover, .btn3:hover,.btn4:hover{
+  color: #6898b5;
+  cursor: pointer;
+}
+
+/*Second Page*/
+#root > h1{
+  text-align: center;
+  margin-top: 2em;
+  color: #2a2a72;
+}
+
+div.sec{
+  margin-left: 6em;
+  width: 60%;
+}
+
+#root > div.secTotal > img{
+  margin: 0 auto;
+  margin-top: 4em;
+  border-style: none;
+}
+
+html body div#root div h2{
+  margin-top: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #232528;  
+}
+
+#root > div:nth-child(2) > div > h4:nth-child(3){
+  font-family: cursive;
+  color: #6c757d;
+  letter-spacing: .3rem;
+}
+
+html body div#root div p#p{
+  
+  color: #2a2a72;
+  font-weight: bolder;
+}
+
+#root > div:nth-child(2) > div > p:nth-child(6){
+  width: 70%; /*checkhis again*/
+}
+
+#root > div:nth-child(2) > div > h4:nth-child(5){
+  color: #232528;
+  font-family: sans-serif;
+  margin-top: .5em;
+}
+
+/*bottom buttons*/
+.add{
+  margin-top: 1.5em;
+  display: flex;
+  gap: 1em;
+}
+
+#root > div:nth-child(2) > div > div > a > button, 
+#root > div.secTotal > div > div > a > button{
+  border-color: #009ffd;
+  color: #009ffd;
+}
+
+#root > div.secTotal > div > div > a > button:hover{
+  background: #009ffd;
+  color: #0019fd;
+}
+
+#root > div.secTotal > div > div > button{
+  border-color: #ffa400;
+  color: #ffa400;
+  
+}
+
+#root > div.secTotal > div > div > button:hover{
+  background: #ffa400;
+  color: #0019fd;
+  
+}
+/*button*/
+#root > div.secTotal > div > div > a > button, 
+#root > div.secTotal > div > div > button{
+  padding: .75em;
+  border-radius: 5px;
+}
+
+/*comment box*/
+.commentBox{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0.875rem;
+  padding: 0.2rem 1rem 2rem;
+  background: #232528;
+  margin-top: 3rem;
+}
+
+
+.comment-form{
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.comment-form-fields input, textarea{
+  border: 0;
+  border-bottom: 1px solid #232528;
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  width: 99%;
+}
+
+
+
+#root > div.commentBox > form > div.comment-form-action > button{
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  padding: 0.75rem;
+  display: inline-block;
+  font-size: 0.6rem;
+}
+
+#root > div.commentBox > form > div.comment-form-action > button:hover{
+  cursor: pointer;
+}
+
+#comment-reveal{
+  background-color: #009ffd;
+  color: #fff;
+  float: right;
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+#comment-reveal:hover{
+  cursor:pointer;
+}
+
+#root > div.commentBox > h2{
+  color: #f5deb3;
+}
+
+#comments-container{
+  color: white;
+  }
+
+.comment-count{
+  color: white;
+}
+
+#root > div.commentBox > h4{
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*ItemsAdded Page */
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f3f3f3;
+  width: 35%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  z-index: 9999;
+  text-align: center;
+}
+
+.modalButton{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#root > div.items{
+  width: 20%;
+  height: 60vh;
+  background: #f3f3f3;
+}
+
+@media screen and (min-width: 750px) {
+  .secTotal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 9px;
+    
+  }
+
+  .secTotal img{
+    width: 80%;
+    margin-top: 10px;
+    height: auto;
+  }
+  .sec{
+    margin-top: 10px;
+  }
+}
